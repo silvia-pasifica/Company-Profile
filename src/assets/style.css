@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* :root {
+    overflow-x: hidden;
+} */
+
+/* body */
+body {
+    font-family: Poppins, sans-serif;
+    min-height: 100vh;
+}
+
+/* navbar */
+.navbar {
+    background-color: #152C5B;
+}
+
+/* .btn_prime {
+
+    background-color: #E79160;
+    
+}
+
+.btn_prime:hover {
+    background-color: #e0793d;
+} */
+
+
+/* header */
+.header {
+    background-color: #152C5B;
+    
+}
+
+.desc-tagline {
+    color: #60C1E7;
+}
+
+.header-content {
+    height: 85vh;
+}
+
+/* box */
+.box-contents {
+    transform: translateY(-50%);
+}
+
+.box-content1 {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.title-box {
+    color: #152C5B;
+}
+
+.text_highlight {
+    color: #E79160;
+}
+
+.text-blue {
+    color: #152C5B;
+}
+
+
+/* tentang kami */
+.title-content {
+    color: #60C1E7;
+}
+
+.button-tentang-kami {
+    background-color: #E79160;
+    ;
+}
+
+.button-tentang-kami:hover {
+    background-color: #eb7531;
+}
+
+
+/* Layanan */
+.title-layanan > p{
+    color: #152C5B;
+}
+
+.container-layanan {
+    background: rgba(96, 193, 231, 0.5);
+}
+
+.container-layanan:hover {
+    background-color: #152C5B;
+    color: white;
+}
+
+.text-blues {
+    color: #152C5B;
+}
+
+.text-blues:hover {
+    color:white;
+}
+
+
+/* footer */
+footer{
+    background-color: #60C1E7;
+}
+
+.footer-tentang-kami > a{
+    color: #152C5B;
+
+}
+
+.footer-lainnya > a{
+    color: #152C5B;
+
+}
+
+.footer-undah-aplikasi > a{
+    color: #152C5B;
+
+}
+
+
+/* RESPONSIVE */
+@media only screen and (min-width:1024px){
+
+    .box-contents {
+        transform: translateY(-30%);
+    }
+    
+}
+
+@media only screen and (min-width:1536px){
+
+    .box-contents {
+        transform: translateY(-50%);
+    }
+    
+}
+
+/* LOGIN PAGE */

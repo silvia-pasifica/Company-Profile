@@ -1,0 +1,398 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="/dist/output.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="/dist/output2.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.2/dist/flowbite.min.css" />
+  <!-- swiper js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <title>WOOF!</title>
+  <!-- <link rel="icon" type="image/png" href="assets/img/Logo.png" /> -->
+
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar border-gray-200 2xl:px-2 sm:px-4 lg:px-8 py-3  dark:bg-gray-800">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="#" class="items-center">
+        <img src="../src/assets/logo.png" class="mr-3 h-12 sm:h-16" alt="Logo" />
+      </a>
+      <div class="flex md:order-2">
+        <button type="button"
+          class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-base px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
+        <button data-collapse-toggle="mobile-menu-4" type="button"
+          class="inline-flex items-center p-2 text-sm text-white rounded-lg md:hidden hover:bg-blue-800 focus:outline-none  dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="mobile-menu-4" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+          <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-4">
+        <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-medium">
+          <li>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white border-b border-gray-500 hover:bg-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#tentang-kami-page"
+              class="block py-2 pr-4 pl-3 text-white border-b border-gray-500 hover:bg-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Tentang
+              Kami</a>
+          </li>
+          <li>
+            <a href="#layanan-page"
+              class="block py-2 pr-4 pl-3 text-white border-b border-gray-500 hover:bg-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Layanan</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white border-b border-gray-500 hover:bg-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Undah
+              Aplikasi</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div
+      class="header-content 2xl:pt-24 2xl:px-2 lg:pt-8 lg:px-16 lg:h-screen lg:flex container mx-auto px-8 justify-between">
+      <div class="tagline">
+        <p class="text-white pt-6  lg:mx-0 lg:text-3xl text-lg font-bold lg:mt-6 ">
+          WOOF
+          memberi
+          hewan
+          <br>peliharaan
+          Anda
+          kenyamanan<br>dan
+          perawatan
+          dengan kualitas<br>terbaik!
+        </p>
+
+        <p class="desc-tagline text-lg my-6">A 5 Star luxury resort facility</p>
+        <button type="button"
+          class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-base px-5 py-2.5 my-8 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Daftar
+          Sekarang</button>
+      </div>
+      <div class="image-header ">
+        <img src="../src/assets/Header.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- BOX -->
+  <div class="box 2xl:h-56 lg:h-80">
+    <div class="box-contents h-96 2xl:px-2 lg:px-16 flex container mx-auto justify-between ">
+      <div class="box-content1 w-full bg-white rounded-3xl lg:px-8 ">
+        <div class="title-box font-bold text-4xl text-center pt-8 pb-6">
+          Kenapa harus pakai WOOF?
+        </div>
+        <div class="content-box flex justify-center">
+          <div class="content my-4 mx-6 py-4 w-96 flex flex-col justify-center items-center">
+            <span class="iconify" data-icon="fluent:people-16-filled" style="color: #60c1e7; font-size: 80px;"></span>
+            <div class="flex pt-3 pb-2">
+              <p class="2xl:text-4xl  lg:text-3xl font-bold text_highlight">10</p>
+              <p class="2xl:text-4xl  lg:text-3xl font-bold text-blue">+</p>
+            </div>
+            <p class="text-center">Partner yang berkerja sama dengan WOOF! di seluruh Indonesia</p>
+          </div>
+
+          <div class="content my-4 mx-14 py-4 w-96 flex flex-col justify-center items-center">
+            <span class="iconify" data-icon="bi:hand-thumbs-up-fill" style="color: #60c1e7; font-size: 60px;"></span>
+            <div class="flex pt-3 pb-2 mt-3.5">
+              <p class="2xl:text-3xl  lg:text-2xl font-bold text_highlight">Berkualitas</p>
+            </div>
+            <p class="text-center">Terpercaya dan hanya menggunakan barang berkualitas untuk merawat hewan peliharaan
+            </p>
+          </div>
+
+          <div class="content my-4 mx-6 py-4 w-96 flex flex-col justify-center items-center">
+            <span class="iconify" data-icon="fluent:star-12-filled" style="color: #60c1e7; font-size: 80px;"></span>
+            <div class="flex pt-3 pb-2">
+              <p class="2xl:text-4xl  lg:text-3xl font-bold text_highlight">4.5</p>
+              <p class="2xl:text-4xl  lg:text-3xl font-bold text-blue">/5</p>
+            </div>
+            <p class="text-center">Rating aplikasi WOOF! yang berada di Playsotre dan App Store</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Tentang Kami -->
+  <div class="tentang-kami" id="tentang-kami-page">
+    <div class="2xl:px-2 2xl:pt-24 pb-15 lg:px-16 lg:pt-20 flex container mx-auto justify-between">
+      <div class="tentang-kami-content w-6/12">
+        <p class="mt-2 mb-8 font-bold text-4xl title-content">Tentang Kami</p>
+        <p class="my-6">Aplikasi WOOF! mempermudah Anda menemukan pet hotel terpercaya di sekitar Anda. WOOF!
+          berkomitmen untuk
+          memberikan pelayanan dengan kualitas tinggi dan menghindarkan Anda dari pet hotel tidak bertanggung jawab.
+        </p>
+        <p>
+          Kami memperlakukan hewan Anda seolah - olah mereka adalah milik kami, sehingga Anda dapat tenang saat jauh
+          dari hewan peliharaan Anda</p>
+
+        <button
+          class="text-white button-tentang-kami font-medium rounded-lg text-base px-5 py-2.5 my-8 text-center mr-3 md:mr-0">Daftar
+          Sekarang</button>
+      </div>
+      <div class="tentang-kami-image 2xl:pr-24 lg:pr-12">
+        <img src="../src/assets/image-1.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Layanan -->
+  <div class="layanan" id="layanan-page">
+    <div class="2xl:px-2 2xl:pt-24 lg:pt-14 lg:px-16 pb-20 container mx-auto ">
+      <div class="title-box font-bold text-4xl text-center pt-8 pb-6 w-full">
+        Layanan
+      </div>
+      <div class="flex flex-col justify-center mx-auto ">
+        <div class="grid grid-cols-3 2xl:gap-36 lg:gap-32 my-12 mx-auto">
+          <div
+            class="container-layanan 2xl:w-80 2xl:h-80 lg:w-60 lg:h-60 rounded-3xl flex flex-col justify-center items-center text-blues">
+            <a href="#"><img src="../src/assets/pet-hotel.png" class="2xl:w-40 lg:w-32 2xl:mb-8 lg:mb-4" alt=""></a>
+            <p class="font-semibold 2xl:text-2xl lg:text-xl ">Pet Hotel</p>
+          </div>
+          <div
+            class="container-layanan 2xl:w-80 2xl:h-80 lg:w-60 lg:h-60 rounded-3xl flex flex-col justify-center items-center text-blues">
+            <a href="#"><img src="../src/assets/grooming.png" class="2xl:w-40 lg:w-32 2xl:mb-8 lg:mb-4" alt=""></a>
+            <p class="font-semibold text-2xl">Pet Grooming</p>
+          </div>
+          <div
+            class="container-layanan 2xl:w-80 2xl:h-80 lg:w-60 lg:h-60 rounded-3xl flex flex-col justify-center items-center text-blues">
+            <a href="#"><img src="../src/assets/pet-shop.png" class="2xl:w-40 lg:w-32 2xl:mb-8 lg:mb-4" alt=""></a>
+            <p class="font-semibold text-2xl">Pet Shop</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="flex flex-col justify-center mx-auto ">
+        <div class="grid grid-cols-2 2xl:gap-36 lg:gap-32 mx-auto ">
+          <div
+            class="container-layanan 2xl:w-80 2xl:h-80 lg:w-60 lg:h-60 rounded-3xl flex flex-col justify-center items-center text-blues">
+            <a href="#"><img src="../src/assets/veterinary.png" class="2xl:w-40 lg:w-32 2xl:mb-8 lg:mb-4" alt=""></a>
+            <p class=" font-semibold text-2xl">Pet Clinic</p>
+            <!-- <div> undefined <a href="https://www.flaticon.com/authors/justicon" title="justicon"> justicon </a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div> -->
+          </div>
+          <div
+            class="container-layanan 2xl:w-80 2xl:h-80 lg:w-60 lg:h-60 rounded-3xl flex flex-col justify-center items-center text-blues">
+            <a href="#"><img src="../src/assets/adoption.png" class="2xl:w-40 lg:w-32 2xl:mb-8 lg:mb-4" alt=""></a>
+            <p class="font-semibold text-2xl ">Pet Adopt</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--Review  -->
+  <div class="review">
+    <div class="2xl:px-2 2xl:pt-24 lg:pt-8 lg:px-16 pb-24 container mx-auto ">
+      <div class="title-box font-bold text-4xl text-center pt-8 pb-6 w-full">
+        Apa Kata Mereka Tentang WOOF?
+      </div>
+      <div class="slide-bar my-12">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide pl-12 pr-12">
+              <div class="object-cover 2xl:h-80 lg:h-72 lg:pb-4 rounded-2xl border-slate-800 border-2 ">
+                <div class="review-comment 2xl:mx-14 2xl:mt-14 2xl:mb-12 lg:mx-8 lg:mt-6 lg:mb-4 ">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam et repellat sapiente laudantium
+                    error neque maxime, numquam porro quaerat est accusamus repudiandae, suscipit exercitationem ad,
+                    corporis sint architecto explicabo esse?</p>
+                </div>
+                <div class="profile-review flex 2xl:ml-14 lg:ml-8 lg:mb-4 ">
+                  <img class="m-2" src="../src/assets/Review1.png" alt="">
+                  <div class="name-profile-review m-4">
+                    <p><b>Fabrian</b></p>
+                    <p>Business Man, 22 Tahun</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide pl-12 pr-12">
+              <div class="object-cover 2xl:h-80 lg:h-72 lg:pb-4 rounded-2xl border-slate-800 border-2 ">
+                <div class="review-comment 2xl:mx-14 2xl:mt-14 2xl:mb-12 lg:mx-8 lg:mt-6 lg:mb-4">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam et repellat sapiente laudantium
+                    error neque maxime, numquam porro quaerat est accusamus repudiandae, suscipit exercitationem ad,
+                    corporis sint architecto explicabo esse?</p>
+                </div>
+                <div class="profile-review flex 2xl:ml-14 lg:ml-8 lg:mb-4">
+                  <img class="m-2" src="../src/assets/Review2.png" alt="">
+                  <div class="name-profile-review m-4">
+                    <p><b>Riyanti</b></p>
+                    <p>Travel Vloger, 24 Tahun</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide pl-12 pr-12">
+              <div class="object-cover 2xl:h-80 lg:h-72 lg:pb-4 rounded-2xl border-slate-800 border-2 ">
+                <div class="review-comment 2xl:mx-14 2xl:mt-14 2xl:mb-12 lg:mx-8 lg:mt-6 lg:mb-4">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam et repellat sapiente laudantium
+                    error neque maxime, numquam porro quaerat est accusamus repudiandae, suscipit exercitationem ad,
+                    corporis sint architecto explicabo esse?</p>
+                </div>
+                <div class="profile-review flex 2xl:ml-14 lg:ml-8 lg:mb-4  ">
+                  <img class="m-2" src="../src/assets/Review3.png" alt="">
+                  <div class="name-profile-review m-4">
+                    <p><b>Ramadhan</b></p>
+                    <p>Mahasiswa, 21 Tahun</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide pl-12 pr-12">
+              <div class="object-cover 2xl:h-80 lg:h-72 lg:pb-4 rounded-2xl border-slate-800 border-2 ">
+                <div class="review-comment 2xl:mx-14 2xl:mt-14 2xl:mb-12 lg:mx-8 lg:mt-6 lg:mb-4">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam et repellat sapiente laudantium
+                    error neque maxime, numquam porro quaerat est accusamus repudiandae, suscipit exercitationem ad,
+                    corporis sint architecto explicabo esse?</p>
+                </div>
+                <div class="profile-review flex ml-14">
+                  <img class="m-2" src="../src/assets/Review4.png" alt="">
+                  <div class="name-profile-review m-4">
+                    <p><b>Paula</b></p>
+                    <p>Model, 32 Tahun</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide pl-12 pr-12">
+              <div class="object-cover 2xl:h-80 lg:h-72 lg:pb-4 rounded-2xl border-slate-800 border-2 ">
+                <div class="review-comment 2xl:mx-14 2xl:mt-14 2xl:mb-12 lg:mx-8 lg:mt-6 lg:mb-4">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam et repellat sapiente laudantium
+                    error neque maxime, numquam porro quaerat est accusamus repudiandae, suscipit exercitationem ad,
+                    corporis sint architecto explicabo esse?</p>
+                </div>
+                <div class="profile-review flex ml-14">
+                  <img class="m-2" src="../src/assets/Review5.png" alt="">
+                  <div class="name-profile-review m-4">
+                    <p><b>Budi Hartono</b></p>
+                    <p>Professor, 43 Tahun</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="h-80 2xl:px-2 lg:px-16 pt-14 pb-8">
+    <div class="x container mx-auto">
+      <div class="footer-top flex justify-between mb-8">
+        <div class="footer-logo">
+          <a href="#"><img src="../src/assets/logo.png" class="w-40" alt=""></a>
+        </div>
+        <div class="footer-left flex space-x-12">
+          <div class="footer-tentang-kami flex flex-col">
+            <a href="#" class="text-2xl font-medium mb-4"><b>Tentang Kami</b></a>
+            <a href="#" class="mb-2">Pet Hotel</a>
+            <a href="#" class="mb-2">Vet</a>
+            <a href="#" class="mb-2">Pet Shop</a>
+          </div>
+
+          <div class="footer-lainnya flex flex-col">
+            <a href="#" class="text-2xl font-medium mb-4"><b>Lainnya</b></a>
+            <a href="#" class="mb-2">Bantuan</a>
+            <a href="#" class="mb-2">Kebijakan Privasi</a>
+            <a href="#" class="mb-2">Partnership</a>
+          </div>
+
+          <div class="footer-undah-aplikasi flex flex-col">
+            <a href="#" class="text-2xl font-medium mb-3"><b>Undah Aplikasi</b></a>
+            <a href="#"><img src="../src/assets/google-play-badge 1.png" alt=""></a>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="footer-bottom flex justify-between pt-8">
+        <div class="footer-bottom-copyright text-blue">
+          <p>&copy 2022 WOOF, All rights reserved</p>
+        </div>
+
+        <div class="footer-bottom-sosmed flex flex-row">
+          <a href="#">
+            <span class="iconify" data-icon="akar-icons:instagram-fill" style="color: #152c5b; font-size: 24px;"></span>
+          </a>
+          <a href="#">
+            <span class="iconify mx-4" data-icon="bxl:tiktok" style="color: #152c5b; font-size: 24px;"></span>
+          </a>
+          <a href="#">
+            <span class="iconify mr-4" data-icon="akar-icons:facebook-fill"
+              style="color: #152c5b; font-size: 24px;"></span>
+          </a>
+          <a href="#">
+            <span class="iconify" data-icon="akar-icons:twitter-fill" style="color: #152c5b; font-size: 24px;"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <!-- JS -->
+  <script src="https://unpkg.com/flowbite@1.4.2/dist/flowbite.js"></script>
+  <!-- iconify -->
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <!-- swiper js -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- carousel -->
+  <script>
+    var swiper = new Swiper('.mySwiper', {
+      slidesPerView: 2,
+      spaceBetween: 30,
+
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+
+</body>
+
+</html>
