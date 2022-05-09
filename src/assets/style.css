@@ -42,12 +42,12 @@ body {
 }
 
 .header-content {
-    height: 85vh;
+    height: 70vh;
 }
 
 /* box */
 .box-contents {
-    transform: translateY(-50%);
+    transform: translateY(-25%);
 }
 
 .box-content1 {
@@ -131,15 +131,22 @@ footer{
 @media only screen and (min-width:1024px){
 
     .box-contents {
-        transform: translateY(-30%);
+        transform: translateY(-40%);
     }
     
+    .header-content {
+        height: 100vh;
+    }
 }
 
-@media only screen and (min-width:1536px){
+@media only screen and (min-width:	1536px){
 
     .box-contents {
         transform: translateY(-50%);
+    }
+
+    .header-content {
+        height: 85vh;
     }
     
 }
