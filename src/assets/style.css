@@ -156,3 +156,20 @@ footer{
 }
 
 /* LOGIN PAGE */
+.login_img_section {
+    background-image: url(../assets/bg-login-page.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-login {
+    background-color: #152C5B;
+}
+
+.button-login:hover {
+    background-color: #60C1E7 ;
+}
+
+.text-hover:hover {
+    color:#60C1E7;
+}

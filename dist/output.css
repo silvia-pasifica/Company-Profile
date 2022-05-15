@@ -824,11 +824,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-indigo-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
-}
-
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -955,6 +950,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-2 {
   padding-left: 0.5rem;
+}
+
+.pb-40 {
+  padding-bottom: 10rem;
+}
+
+.pb-48 {
+  padding-bottom: 12rem;
+}
+
+.pb-44 {
+  padding-bottom: 11rem;
+}
+
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
+.pb-56 {
+  padding-bottom: 14rem;
+}
+
+.pb-60 {
+  padding-bottom: 15rem;
 }
 
 .text-center {
@@ -1217,6 +1236,24 @@ footer{
 
 /* LOGIN PAGE */
 
+.login_img_section {
+  background-image: url(../assets/bg-login-page.svg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-login {
+  background-color: #152C5B;
+}
+
+.button-login:hover {
+  background-color: #60C1E7 ;
+}
+
+.text-hover:hover {
+  color:#60C1E7;
+}
+
 .hover\:-translate-y-1:hover {
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1240,11 +1277,6 @@ footer{
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-blue-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
@@ -1642,6 +1674,10 @@ footer{
     padding-right: 6rem;
   }
 
+  .\32xl\:pb-72 {
+    padding-bottom: 18rem;
+  }
+
   .\32xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1650,5 +1686,15 @@ footer{
   .\32xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .\32xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
